@@ -1,0 +1,17 @@
+.Back{
+    width: 90%;
+    filter: brightness(80%);
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.Back1{
+    margin-left: 10%;
+    width: 90%;
+    position: relative;
+    margin-top: -49%;
+    overflow: hidden;
+}
+
+
+

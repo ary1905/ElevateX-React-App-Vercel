@@ -1,0 +1,27 @@
+.mainbody {
+    position: relative;
+    margin-top: -48%;
+    height: 100vh;
+}
+
+.body {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex : 50%
+}
+
+@media (max-width: 800px) {
+    .body {
+      flex: 100%;
+    }
+  }
+
+
+.featureSec {
+    margin-top: 15%;
+}
+
+.body{
+    display: grid;
+}

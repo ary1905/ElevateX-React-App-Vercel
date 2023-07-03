@@ -1,0 +1,249 @@
+.feat {
+    background-color: rgb(0, 0, 0);
+    height: 3600px;
+    margin-top: 20%;
+}
+
+.feath2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    padding-left: -1%;
+    margin-top: -35%;
+}
+
+.rectangle {
+    fill: none;
+    stroke-width: 8;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: dash 4s linear infinite;
+}
+
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 400;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: 400;
+    }
+}
+
+.feath1{
+    width: 900px;
+    margin-left: 30%;
+    color: white;
+    font-family: Allerta Stencil;
+    display: block;
+    filter: brightness(180%);
+}
+
+.name1{
+    background: linear-gradient(9deg, rgba(248,117,55,1) 0%, rgba(31,32,251,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.img1{
+    margin-top: -55%;
+    margin-left: 5%;
+    width: 552px;
+    height: 700px;
+}
+
+.Featimg1{
+    padding-left: 5%;
+    width: 552px;
+    height: 700px;
+    transition: transform 0.5s ease;
+    filter: brightness(10%);
+}
+
+.Featimg1.visible{
+    transform: translateX(50px);
+    filter: brightness(110%);
+}
+
+
+.featDesc1{
+    width: 700px;
+    height: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: -40%;
+    color: white;
+    font-family: Gruppo;
+    font-size: 30px;
+    transition: transform 4s ease-in-out;
+    filter: brightness(30%);
+}
+
+.featDesc1.visible{
+    filter: brightness(200%);
+}
+
+.p1{
+    font-size: 70px;
+}
+
+.img2{
+    width: 600px;
+    height: 600px;
+    margin-left: 58%;
+    margin-top: 10%;
+}
+
+.Featimg2{
+    width: 552px;
+    height: 700px;
+    margin-top: -100%;
+    margin-left: 10%;
+    transition: transform 0.5s ease;
+    filter: brightness(10%);
+}
+
+.Featimg2.visible{
+    transform: translateX(-50px);
+    filter: brightness(120%);
+}
+
+.featDesc2{
+    width: 700px;
+    height: 500px;
+    float: right;
+    margin-right: 48%;
+    margin-top: 15%;
+    color: white;
+    font-family: Gruppo;
+    font-size: 30px;
+    transition: transform 4s ease-in-out;
+    filter: brightness(30%);
+}
+
+.featDesc2.visible{
+    filter: brightness(200%);
+}
+
+.p2{
+    font-size: 70px;
+}
+
+.img3{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 552px;
+    height: 700px;
+}
+
+.Featimg3{
+    width: 500px;
+    height: 600px;
+    transition: transform 0.5s ease;
+    filter: brightness(10%);
+}
+
+.Featimg3.visible{
+    transform: translateX(50px);
+    filter: brightness(120%);
+}
+
+.featDesc3{
+    width: 700px;
+    height: 500px;
+    float: right;
+    margin-top: -40%;
+    color: white;
+    font-family: Gruppo;
+    font-size: 30px;
+    transition: transform 4s ease-in-out;
+    filter: brightness(30%);
+}
+
+.featDesc3.visible{
+    filter: brightness(200%);
+}
+
+.p3{
+    font-size: 70px;
+}
+
+.img4{
+    width: 600px;
+    height: 600px;
+    margin-left: 58%;
+}
+
+.Featimg4{
+    width: 552px;
+    height: 700px;
+    margin-top: -100%;
+    margin-left: 10%;
+    transition: transform 0.5s ease;
+    filter: brightness(10%);
+}
+
+.Featimg4.visible{
+    transform: translateX(-50px);
+    filter: brightness(120%);
+}
+
+.featDesc4{
+    width: 700px;
+    height: 500px;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: white;
+    font-family: Gruppo;
+    font-size: 30px;
+    transition: transform 4s ease-in-out;
+    filter: brightness(30%);
+}
+
+.featDesc4.visible{
+    filter: brightness(200%);
+}
+
+.p4{
+    font-size: 70px;
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .featDesc1,
+    .featDesc2,
+    .featDesc3,
+    .featDesc4 {
+      width: 90%;
+      margin: 5% auto;
+      font-size: 24px;
+    }
+    
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+      width: 100%;
+      margin: 5% auto;
+    }
+    
+    /* Adjust other styles as needed */
+  }
+  
+  @media (max-width: 480px) {
+    .name1,
+    .feath1 {
+      width: 100%;
+      margin: 5% auto;
+    }
+    .rectangle {
+      stroke-width: 4;
+    }
+  }
+  
